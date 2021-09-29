@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, cyan, magenta);
+}
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 7em auto;
+}
+.main {
+    background-color: white;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+}
+header {
+    padding-top: 35px;
+}
+#form {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px; 
+    margin:auto;
+    text-align: left;
+    padding-left: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#buttoncontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 75px;
+}
+
+#buttoncontainer img{
+    width: 60px;
+    height: 40px;
+    padding-right: 30px;
+}
+
+#facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    width: 46%;
+    background-color: #38529A;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(85, 85, 85, 0.35) 0px 5px 15px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    width: 46%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(85, 85, 85, 0.35) 0px 5px 15px;
+    height: 50px;
+    cursor: pointer;
+}
+input {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 235);
+    border: rgb(117, 117, 121);
+    margin-top: 5px;
+}
+.submit {
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 34);
+    color: white;
+    box-shadow: rgba(85, 85, 85, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+footer {
+    font-size: 10px;
+    padding-top: 15%;
+    color: rgb(186, 186, 253);
+}
+
